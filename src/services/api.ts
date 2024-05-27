@@ -9,10 +9,6 @@ const config = {
   headers: { Authorization: `Bearer ${API_TOKEN}` },
 };
 
-const postConfig = {
-  headers: { 'Content-Type': 'application/json' },
-};
-
 const axiosInstance = axios.create({ baseURL: BASE_URL });
 axiosInstance.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
 

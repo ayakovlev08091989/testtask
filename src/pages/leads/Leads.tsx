@@ -3,13 +3,11 @@ import { LeadCart } from "../../components/LeadCart/LeadCart";
 import { Pagination } from "../../components/Pagination/Pagination";
 import styles from "./Leads.module.scss";
 import { useState } from "react";
-import { useDeleteLead } from "../../services/mutations";
 
 export default function Leads() {
   const [page, setPage] = useState(1);
   const leadsResponse = useLeads(page);
   const thumbsResponse = useThumbs();
-  const deleteLead = useDeleteLead();
   
   const isLoaded =
     !leadsResponse.isPending &&

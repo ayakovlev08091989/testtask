@@ -10,7 +10,7 @@ import ContextMenuIcon from "../../assets/contextMenuIcon.png";
 import TrashIcon from "../../assets/trashIcon.png";
 import LinkedInIcon from "../../assets/linkedInIcon.png";
 import moment from "moment-timezone";
-import { Dispatch, SetStateAction, useState } from "react";
+import { useState } from "react";
 import { useDeleteLead, useDeleteThumb, useGiveThumb } from "../../services/mutations";
 import { Tooltip } from "react-tooltip";
 
