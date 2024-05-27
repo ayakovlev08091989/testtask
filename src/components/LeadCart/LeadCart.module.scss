@@ -1,0 +1,114 @@
+.leadCart {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+  padding:20px;
+  padding-bottom: 0;
+  font-size: 11px;
+
+  .header {
+    display: flex;
+    margin-top: -5px;
+    justify-content: space-between;
+
+    .contactedIconContainer {
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .contactedIcon {
+      border-radius: 6px;
+      padding: 4px;
+      background-color:#57C2EF;
+    }
+
+    .notContactedIcon {
+      background-color: #EFEFEF;
+      border-radius: 6px;
+      padding: 4px;
+    }
+
+    .contactedIcon {
+      cursor: pointer;
+    }
+
+    .thumbsIcons {
+      display: flex;
+      gap: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .infoBlock {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+
+      .title {
+        color: #6F6F6F;
+        margin-bottom: 5px;
+      }
+
+      .value {
+        font-weight:600;
+      }
+    }
+  }
+
+  .footer {
+    background-color: #F8F8F8;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+
+    .title {
+      color: #6F6F6F;
+      margin-bottom: 5px;
+    }
+
+    .value {
+      font-weight:600;
+    }
+  }
+
+  .tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 4px 12px 0px #D4D4D440;
+    border: 1px solid #F1F1F1;
+    border-radius: 6px;
+    min-height: 30px;
+    min-width: 147px;
+
+    .menuItem {
+      display: flex;
+      cursor: pointer;
+      padding-left: 5px;
+      padding-right: 5px;
+      height: 20px;
+      border-radius: 6px;
+      justify-content: space-between;
+      align-items: center;
+      &:hover {
+        background-color: #F8F8F8;
+      }
+    }
+  }
+}
+
+
