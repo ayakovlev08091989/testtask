@@ -16,8 +16,8 @@
   margin-top: 10px;
 
   .title {
-    width: 80%;
-    margin-bottom: 40px;
+    width: 90%;
+    margin-bottom: 25px;
     font-size: 16px;
   }
   
@@ -31,13 +31,13 @@
     .leads {
       margin-bottom: 20px;
       display: grid;
-      max-width: 80%;
+      max-width: 90%;
       gap: 20px;
       grid-template-columns: repeat(3, 1fr);
     }
 
     .pagination {
-      width: 80%;
+      width: 90%;
       display: flex;
       justify-content: end;
     }
